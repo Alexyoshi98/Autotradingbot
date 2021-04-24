@@ -1,8 +1,3 @@
-git clone https://github.com/eternnoir/pyTelegramBotAPI.git
-cd pyTelegramBotAPI
-sudo python setup.py install
-
-
 import telegram
 bot  =  telegram . Bot ( token = '1654462214:AAF2-p-vdJuXTVS8PfdakiiCHQSR_USiyS0' )
 
