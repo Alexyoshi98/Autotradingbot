@@ -8,3 +8,17 @@ import telebot
 TOKEN = '<1765622974:AAF81X-A0JgpnBMZAkHLJlJBqIqMYtZkdGk>' #Ponemos nuestro TOKEN generado con el @BotFather
 
 mi_bot = telebot.TeleBot(1765622974:AAF81X-A0JgpnBMZAkHLJlJBqIqMYtZkdGk) #Creamos 
+
+def listener(*mensajes):  ##Cuando llega un mensaje se ejecuta esta función
+    for m in mensajes:
+        chat_id = m.chat.id
+        if m.content_type == 'text':
+            text = m.text
+            mi_bot.send_message(chat_id,"Me copio de tu texto")
+            mi_bot.send_message(chat_id, text)
+
+mi_bot.set_update_listener(listener) #registrar la funcion listener
+mi_bot.polling()
+
+while True: #No terminamos nuestro programa
+    pass
