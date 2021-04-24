@@ -22,3 +22,5 @@ mi_bot.polling()
 
 while True: #No terminamos nuestro programa
     pass
+Edad = input()
+print("mama")
