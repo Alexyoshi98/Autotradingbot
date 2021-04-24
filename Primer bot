@@ -5,7 +5,7 @@ sudo python setup.py install
 
 import telebot
 
-TOKEN = '<1765622974:AAF81X-A0JgpnBMZAkHLJlJBqIqMYtZkdGk>' #Ponemos nuestro TOKEN generado con el @BotFather
+TOKEN = '<765622974:AAF81X-A0JgpnBMZAkHLJlJBqIqMYtZkdGk>' #Ponemos nuestro TOKEN generado con el @BotFather
 
-mi_bot = telebot.TeleBot(1765622974:AAF81X-A0JgpnBMZAkHLJlJBqIqMYtZkdGk) #Creamos 
+mi_bot = telebot.TeleBot(765622974:AAF81X-A0JgpnBMZAkHLJlJBqIqMYtZkdGk) #Creamos 
 
