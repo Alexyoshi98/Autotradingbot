@@ -1,3 +1,10 @@
 git clone https://github.com/eternnoir/pyTelegramBotAPI.git
 cd pyTelegramBotAPI
 sudo python setup.py install
+
+
+import telebot
+
+TOKEN = '<1765622974:AAF81X-A0JgpnBMZAkHLJlJBqIqMYtZkdGk>' #Ponemos nuestro TOKEN generado con el @BotFather
+
+mi_bot = telebot.TeleBot(1765622974:AAF81X-A0JgpnBMZAkHLJlJBqIqMYtZkdGk) #Creamos 
