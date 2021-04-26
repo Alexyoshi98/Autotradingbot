@@ -8,6 +8,11 @@ import logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                      level=logging.INFO)
 
+# python: `apt-get update && apt-get install python`
+# python-pip: `apt-get install python-pip`
+# pyTelegramAPI: `pip install pyTelegramBotAPI`
+# screen: `apt-get install screen`
+
 def start(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="Bienvenid@ a la version demo del primer robot de Matayoshi. Usted está siendo testigo del comienzo como programador del mejor crack de la historia, vaya suerte que tiene...")
 
